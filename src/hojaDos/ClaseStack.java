@@ -2,10 +2,10 @@ package hojaDos;
 import java.util.EmptyStackException;
 import java.util.ArrayList;
 
-public class Stack2 implements IStack<Double> {
+public class ClaseStack implements IStack<Double> {
 	ArrayList<Double> stack = null;
 
-    public void clasestack(){
+    public void stackClass(){
         stack = new ArrayList<Double>();
     }
 

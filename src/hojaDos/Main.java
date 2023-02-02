@@ -5,13 +5,13 @@ import java.io.*;
 public class Main {
 	static calculatorClass c = new calculatorClass();
     public static void main(String[] args) {
-        leerArchivo();
+        readData();
     }
-    private static void leerArchivo(){
-        String nombreFichero = "datos.txt";
+    private static void readData(){
+        String data = "datos.txt";
         BufferedReader br = null;
         try {
-            br = new BufferedReader(new FileReader(nombreFichero));
+            br = new BufferedReader(new FileReader(data));
             String texto = br.readLine();
             while(texto != null) {
                 texto = br.readLine();
