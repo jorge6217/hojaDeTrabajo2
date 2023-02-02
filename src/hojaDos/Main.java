@@ -3,7 +3,7 @@ import java.util.*;
 import java.io.*;
 
 public class Main {
-	static calculatorClass c = new calculatorClass();
+	static ClaseCalculadora c = new ClaseCalculadora();
     public static void main(String[] args) {
         readData();
     }

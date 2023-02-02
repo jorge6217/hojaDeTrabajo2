@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.EmptyStackException;
 
 public class ClaseCalculadora implements ICalculator {
-	stackClass stack = null;
-    public void calculatorClass(){
-        stack = new stackClass();
+	clasestack stack = null;
+    public Clasecalculadora(){
+        stack = new clasestack();
     }
     public double parsear(String expression){
         return Double.parseDouble(expression);
@@ -48,5 +48,6 @@ public class ClaseCalculadora implements ICalculator {
     public double getPrevious(){
         return 0.0;
     }
-
 }
+
+	

@@ -14,8 +14,15 @@ import org.junit.jupiter.api.Test;
 class PruebasUnitarias {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	public class TestJunitStack extends ClaseStack{
+
+	    static IStack emptystack = new IStack();
+	    @Test(expected = EmptyStackException.class)
+	    public void testPopEmptyStack() {
+	        emptystack.pop();
+	        //referencia de: https://stackoverflow.com/questions/23466162/junit-testing-stack-pop
+	    }
+	
 	}
 
 }
